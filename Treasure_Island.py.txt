@@ -1,0 +1,13 @@
+choice1 = input("You are at a cross road. Left or Right?\n")
+if choice1 == "Left" :
+  choice2 = input("It's a lake. Type 'wait' or 'swim'\n")
+  if choice2 == "wait" :
+    choice3 = input("Which door? Red/Yellow/Blue?\n")
+    if choice3 == "Yellow" :
+      print("You win")
+    else :
+      print("Game over")
+  else :
+    print("Game over")
+else :
+  print("Game over")
